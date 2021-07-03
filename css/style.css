@@ -1,0 +1,81 @@
+/* Text */
+h1, h2, h3, h4, h5 {
+font-family: 'Basic', sans-serif;
+}
+p {
+    font-family: 'Basic', sans-serif;
+  }
+  
+  /* Navigation Bar */
+  
+  /* General */
+  .customNav {
+    position: fixed;
+    width: 100%;
+    background-image: url("../Images/sharon-mccutcheon-NkQD-RHhbvY-unsplash.jpg");
+    background-color: white !important;
+    background-size: cover;
+    z-index: 10;
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  .navbar-brand img {
+    padding-right: 10px;
+    width: 50px;
+  }
+  .nav-item {
+    margin: 0px 10px;
+  }
+  /*Navigation Dropdown Menu*/
+  .dropdown-menu {
+    background-image: url("../Images/thomas-kelley-JoH60FhTp50-unsplash.jpg");
+    background-color: white !important;
+    background-size: cover;
+  }
+  .dropdown-item:focus, .dropdown-item:hover {
+      color: gray;
+      text-decoration: none;
+      background: black;
+  }
+  
+  /* Navigation Links */
+  .customNav a {
+    color: transparent !important;
+  }
+  .navCTA {
+    font-size: 20px;
+  }
+  
+  /* Jumbotron */
+  .jumbotron {
+    background-image: url("../Images/evie-s-Sw7f58YJbc0-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+ /* Jumbotron Copy */
+  .jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: transparent;
+    text-align: center;
+  }
+  
+  /* Template Styles */
+  .dropdown-menu {
+    left: -97px;
+ 
+  }
+  .cardContainer {
+    margin-top: 20px;
+  }
+  .card {
+    margin: 0 auto;
+  }
